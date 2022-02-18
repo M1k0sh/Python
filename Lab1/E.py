@@ -1,4 +1,4 @@
-x, y = [int(x) for x in input().split()]
+x, y = map(int, input().split())
 
 bool = False
 for i in range(2, x):
