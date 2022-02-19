@@ -17,7 +17,7 @@ while x != k:
         print('Your guess is too low.')
         print("Take a guess.")
     else:
-        print('Your guess is too bigger.')
+        print('Your guess is too big.')
         print("Take a guess.")
     x=n
     sum+=1
