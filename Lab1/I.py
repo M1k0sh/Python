@@ -7,5 +7,4 @@ for i in range(x) :
 
 for i in range(x) :
     if(ar[i].find("@gmail.com") >= 0) :
-        k = len(ar[i]) - 10
         print(ar[i].replace("@gmail.com",""))
