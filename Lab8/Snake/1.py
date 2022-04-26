@@ -149,7 +149,6 @@ while True:
                     main_game.snake.direction = Vector2(0, -1)
         
 
-
     screen.fill((175,215,70))
     main_game.draw_elements()
     pygame.display.update()
